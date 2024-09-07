@@ -20,7 +20,6 @@ app.use(express.urlencoded({ extended: true }));
 
 // Define a route
 app.get('/admin', (req, res) => {
-    console.log(req.body);
     res.render('adminLogin'); // Render the adminLogin.ejs template
 });
 

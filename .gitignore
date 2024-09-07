@@ -47,3 +47,5 @@ eslint-debug.log
 # Optional directories
 tmp/
 temp/
+# Dependency directories
+node_modules/

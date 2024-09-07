@@ -5,14 +5,25 @@
   box-sizing: border-box;
 }
 
+.logo{
+  justify-content: centers;
+  height: 50%;
+}
+.nerko-one-regular {
+  font-size: 60px;
+  font-family: "Nerko One", cursive;
+  font-weight: 600;
+  font-style: normal;
+}
+
+
 body {
-  background-color: #222222;
+  background-image: url('/images/background.avif');
+  background-size: cover;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   font-weight: 400;
-  color: #666666;
-  background: #eaeff4;
 }
 
 .wrapper {
@@ -78,7 +89,7 @@ p {
   text-decoration: none;
   border-radius: 5px;
   margin-top: 20px;
-  background-color: #345b36;
+  background-color: #6ac4f1;
   color: #ffffff;
   outline: none;
   border: 1px solid #ffffff;
@@ -87,8 +98,8 @@ p {
 }
 
 .btn:hover {
-  color: #345b36;
-  background: #71f284;
+  color: #76c7ef;
+  background: #1b85f5;
 }
 
 .col-left,
@@ -100,8 +111,12 @@ p {
 }
 
 .col-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 45%;
-    background: #4CAF50;  
+    background: #76c7ef;  
   -webkit-clip-path: polygon(98% 17%, 100% 34%, 98% 51%, 100% 68%, 98% 84%, 100% 100%, 0 100%, 0 0, 100% 0);
   clip-path: polygon(98% 17%, 100% 34%, 98% 51%, 100% 68%, 98% 84%, 100% 100%, 0 100%, 0 0, 100% 0);
 }
